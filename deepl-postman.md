@@ -32,3 +32,5 @@ We are using the API endpoint **POST** `{domain}/v2/translate`. We are translati
   | text | Hello, world! |
   
   The request should something like this: 
+  
+  ![Screenshot of the API request and parameters](images/post-request-params.png)
