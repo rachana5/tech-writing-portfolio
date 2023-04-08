@@ -50,7 +50,7 @@ We are using the API endpoint **POST** `{domain}/v2/translate`. We are translati
 
 	![Screenshot of the response with the translated text](images/response.png)
 	
-You have now sent your first successful request in Postman. You can see the next section which describes how to send a GET request to view the list of available languages on DeepL.
+You have now sent your first successful request in Postman. After this, you can see the next section which describes how to send a GET request to view the list of available languages on DeepL.
 
 >**Note**
->If you get any errors, see the [Error Handling](https://www.deepl.com/docs-api/api-access/error-handling/) section from DeepL for information. 
+>If you get any errors, see the DeepL [Error Handling](https://www.deepl.com/docs-api/api-access/error-handling/) section. 
