@@ -46,7 +46,7 @@ We are using the DeepL API endpoint **POST** `{domain}/v2/translate` to translat
 	
 6. Click **Save**. The collection called **Translation** is created and the POST request **hello-world** is saved in this collection.
 
-7. Now, click **Send**. For a successful request, you can see the translated text in the response body. The following screenshot shows the response:
+7. Now, click **Send**. For a successful request, you can see the translated text in the response body. The following screenshot shows the response with the translated text *Tere, maailm!*:
 
 	![Screenshot of the response with the translated text](images/response.png)
 	
