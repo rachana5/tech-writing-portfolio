@@ -1,3 +1,4 @@
 # Portfolio
 
-This repository contains technical writing samples. This is a work in progress.
+This repository is a work in progress portfolio containing technical writing samples. Currently, the following sample is present:
+* How to translate text with DeepL API using Postman
