@@ -1,24 +1,24 @@
-# How to use DeepL API
+# How to use Postman to translate text with DeepL API
 
-Postman is a software .... xxxx to be continued.
-DeepL is .... xxxx to be continued.
+## Introduction
 
-Scenario: You want to test the DeepL API for text translation. You are using Postman for this.
-This guide shows you how to call DeepL API endpoints to translate text using Postman.
+[Postman](https://www.postman.com/) is a software for developers to create, test, and manage API endpoints. [DeepL](https://www.deepl.com/translator) is a translation tool and with the API users can integrate translation to applications.
+
+This guide describes how to send a request to the DeepL translate endpoint to translate text using Postman.
 
 ## Prerequisites
 
 1. A Postman account - you can create an account for free if you don't have one. See https://www.postman.com/ 
-2. A DeepL account - you can create an account with the free plan. You need to provide your credit card details but you are not charged unless you manually upgrade to the pro plan. See https://www.deepl.com/translator
+2. A DeepL API account - you can create an account with the free plan. You need to provide your credit card details but you are not charged unless you manually upgrade to the pro plan. See https://www.deepl.com/pro#developer
 
 ## Steps to translate
-We are using the API endpoint **POST** `{domain}/v2/translate`. We are translating the phrase *Hello, world!* from English to Estonian. 
+We are using the DeepL API endpoint **POST** `{domain}/v2/translate` to translate *Hello, world!* from English to Estonian. You can either download the Postman app to your machine, or you can use it on the web.
 
 1. When you first log in to Postman, you can see the home page.
 
 	![Screenshot of the Postman home screen](images/welcome-screen.png)
 
-2. Click **Create request** from the left-hand menu to create our first API request. An **Untitled Request** opens which is set to the **GET** method by default.
+2. Click **Create request** from the left-hand menu to create your first API request. An **Untitled Request** opens which is set to the **GET** method by default.
 
 	![Screenshot of the new untitled request](images/new-request.png)
 
@@ -31,7 +31,7 @@ We are using the API endpoint **POST** `{domain}/v2/translate`. We are translati
 	| target_lang | et |
 	| text | Hello, world! |
   
-	The request should look something like this: 
+	The table should look something like this: 
   
 	![Screenshot of the API request and parameters](images/post-request-params.png)
 
@@ -50,7 +50,7 @@ We are using the API endpoint **POST** `{domain}/v2/translate`. We are translati
 
 	![Screenshot of the response with the translated text](images/response.png)
 	
-Nice work! You have now sent your first successful request in Postman.
+Nice work! You have sent your first successful request in Postman.
 
 >**Note**
 >If you get any errors, see the DeepL [Error Handling](https://www.deepl.com/docs-api/api-access/error-handling/) section. 
