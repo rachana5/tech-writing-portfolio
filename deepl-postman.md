@@ -12,7 +12,7 @@ This guide shows you how to call DeepL API endpoints to translate text using Pos
 2. A DeepL account - you can create an account with the free plan. You need to provide your credit card details but you are not charged unless you manually upgrade to the pro plan. See https://www.deepl.com/translator
 
 ## Steps to translate
-We are using the API endpoint **POST** `{domain}/v2/translate`. We are translating the phrase "Hello, world!" from English to Estonian. 
+We are using the API endpoint **POST** `{domain}/v2/translate`. We are translating the phrase *Hello, world!* from English to Estonian. 
 
 1. When you first log in to Postman, you can see the home page.
 
@@ -50,7 +50,7 @@ We are using the API endpoint **POST** `{domain}/v2/translate`. We are translati
 
 	![Screenshot of the response with the translated text](images/response.png)
 	
-You have now sent your first successful request in Postman. After this, you can see the next section which describes how to send a GET request to view the list of available languages on DeepL.
+Nice work! You have now sent your first successful request in Postman.
 
 >**Note**
 >If you get any errors, see the DeepL [Error Handling](https://www.deepl.com/docs-api/api-access/error-handling/) section. 
