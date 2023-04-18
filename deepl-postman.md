@@ -1,4 +1,4 @@
-# How to use Postman to translate text with DeepL API
+# How to translate text with DeepL API using Postman
 
 ## Introduction
 
