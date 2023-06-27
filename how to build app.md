@@ -1,4 +1,4 @@
-# Create an App to Display Tools
+# Create an App to Display Tools in Mendix
 
 ## 1 Introduction
 
