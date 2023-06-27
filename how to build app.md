@@ -82,7 +82,7 @@ Next, we will add a form to get the name and code as input.
 
 Your page should look something like this:
 
-	![Screenshot of the add-tool page with a heading and a form having 2 rows for name and code](images/add-tool-1.PNG)
+![Screenshot of the add-tool page with a heading and a form having 2 rows for name and code](images/add-tool-1.PNG)
 
 ### 5.2 Creating a Page to Edit Tools
 
