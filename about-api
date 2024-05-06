@@ -1,0 +1,28 @@
+API
+
+This document guides you through the concept of APIs, how they work, …
+
+What is an API?
+
+An API (Application Programming Interface) enables applications to communicate for various purposes. Let’s look at it with an example.
+
+Consider that you have a website for your restaurant. You want to add the location of the restaurant to the site so that users can easily find the place. To retrieve the location, you can use the Google Maps APIs. We can extend this example to include an online payment system to our website. To implement this, you can use PayPal’s APIs.
+
+Similarly, APIs are a set of protocols provided by an application that other software or hardware can use. APIs are helpful as developers don’t need to build those applications from scratch. In our restaurant example, since you are implementing existing applications, you don’t need to build geolocation software or payment systems.
+
+Additionally, APIs are usually built for a specific purpose. This reduces the cost and errors. Since APIs only share the necessary information, internal data is hidden, keeping the system secure. In many cases, APIs also require user authentication so only authorized users and applications can access the services. 
+
+How do APIs work?
+
+In our restaurant example, we were using the PayPal payment system to process customer payments. Let’s break down how the payment system works in simple terms:
+
+* On our website, a customer chooses to pay with PayPal. The customer enters the required information.
+* Our website makes a request to the payment system through an API call. An API call can consist of a PayPal API URI, request headers, and request body containing the customer data.
+* The API receives the valid information and sends the request to the PayPal payment system server.
+* The server then responds to the API with the processed request.
+* Our website’s payment portal receives that response via the API.
+
+The customer experiences a quick and seamless transaction through this process.
+
+Types of APIs
+API protocols
