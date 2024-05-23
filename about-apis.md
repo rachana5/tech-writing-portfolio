@@ -84,4 +84,4 @@ Various weather APIs provide real-time data such as temperature, precipitation, 
 
 Similar to the previous service providers, navigation APIs provide maps, routes, traffic information, and other location-based services. For example, Google Maps.
 
-> Note: For a hands-on experience in using APIs, see the [Translate text with DeepL API](deepl-postman.md) topic.
+> **Note:** For a hands-on guide to using APIs, see the [Translate text with DeepL API](deepl-postman.md) topic.
