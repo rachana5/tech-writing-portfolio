@@ -52,5 +52,5 @@ We are using the DeepL API endpoint **POST** `{domain}/v2/translate` to translat
 	
 Nice work! You have sent your first successful request in Postman.
 
->**Note**
+>**Note:**
 >If you get any errors, see the DeepL [Error Handling](https://www.deepl.com/docs-api/api-access/error-handling/) section. 
