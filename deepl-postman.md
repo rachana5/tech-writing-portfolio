@@ -4,7 +4,7 @@
 
 [Postman](https://www.postman.com/) is a software for developers to create, test, and manage API endpoints. [DeepL](https://www.deepl.com/translator) is a translation tool and with the API users can integrate translation to applications.
 
-This guide describes how to send a request to the DeepL translate endpoint to translate text using Postman.
+This guide describes how to send a request to the DeepL translation endpoint to translate text using Postman. By the end of this guide, you will have a basic understanding of using Postman to create and send API calls.
 
 ## Prerequisites
 
@@ -53,4 +53,4 @@ We are using the DeepL API endpoint **POST** `{domain}/v2/translate` to translat
 Nice work! You have sent your first successful request in Postman.
 
 >**Note:**
->If you get any errors, see the DeepL [Error Handling](https://www.deepl.com/docs-api/api-access/error-handling/) section. 
+>In case of errors, see the DeepL [Error Handling](https://www.deepl.com/docs-api/api-access/error-handling/) section. 
